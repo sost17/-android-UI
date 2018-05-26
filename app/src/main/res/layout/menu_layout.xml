@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="菜单使用指南"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_option_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1、点击Menu键呼出选项菜单"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_context_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2、长按图片呼出上下文菜单"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/img_menu"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:src="@mipmap/wh" />
+
+    <TextView
+        android:id="@+id/tv_pop_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3、点击按钮呼出弹出式菜单"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_pop_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我分享"
+        android:textSize="25sp" />
+
+</LinearLayout>

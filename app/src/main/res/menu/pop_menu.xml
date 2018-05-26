@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mi_qq"
+        android:icon="@mipmap/ic_launcher"
+        android:title="QQ空间"/>
+
+    <item
+        android:id="@+id/mi_friend"
+        android:icon="@mipmap/ic_launcher"
+        android:title="朋友圈"/>
+
+    <item
+        android:id="@+id/mi_tx"
+        android:enabled="true"
+        android:title="腾讯微博"/>
+
+    <item
+        android:id="@+id/mi_xl"
+        android:title="新浪微博"/>
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "sex_array">
+        <item>男</item>
+        <item>女</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name = "city_array">
+        <item>北京</item>
+        <item>上海</item>
+        <item>天津</item>
+        <item>深圳</item>
+        <item>广州</item>
+        <item>成都</item>
+    </string-array>
+
+    <string-array name = "corse_array">
+        <item>Android应用开发</item>
+        <item>Java程序设计</item>
+        <item>Java Web应用开发</item>
+        <item>Html5应用开发</item>
+        <item>软件项目管理</item>
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nsu.zyl.chatper03ui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BasicDialogActivity"></activity>
+        <activity android:name=".MyTableActivity"></activity>
+        <activity android:name=".TableActivity1" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".ToolBarActivity" />
+        <activity
+            android:name=".ActionBarActivity"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+
+        </activity>
+        <activity android:name=".MenuContentActivity" />
+        <activity android:name=".BasicViewActivity" />
+        <activity android:name=".table.HomeActivity" />
+        <activity android:name=".table.NearActivity" />
+        <activity android:name=".table.OrderActivity" />
+        <activity android:name=".table.MineActivity" />
+        <activity android:name=".BasicToastActivity" />
+        <activity android:name=".BasicAdapterActivity" />
+        <activity android:name=".AdapterViewActivity" />
+        <activity android:name=".ArrayAdapterListActivity" />
+        <activity android:name=".SimpleAdapterListActivity" />
+        <activity android:name=".FriendListActivity" />
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".MyFragmentActivity" />
+        <activity android:name=".ViewPagerActivity" />
+        <activity
+            android:name=".ToggleButtonActivity"
+            android:theme="@android:style/Theme.Black"/>
+
+    </application>
+
+</manifest>

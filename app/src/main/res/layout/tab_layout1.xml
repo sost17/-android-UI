@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" >
+        </FrameLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+        </TabWidget>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@android:color/black"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/home_tab"
+                style="@style/bottom_tab"
+                android:checked="true"
+                android:drawableTop="@mipmap/icon_home"
+                android:text="首页" />
+
+            <RadioButton
+                android:id="@+id/near_tab"
+                style="@style/bottom_tab"
+                android:drawableTop="@mipmap/icon_nearby"
+                android:text="附近" />
+
+            <RadioButton
+                android:id="@+id/order_tab"
+                style="@style/bottom_tab"
+                android:drawableTop="@mipmap/icon_order"
+                android:text="预约" />
+
+            <RadioButton
+                android:id="@+id/mine_tab"
+                style="@style/bottom_tab"
+                android:drawableTop="@mipmap/icon_mine"
+                android:text="我的" />
+        </RadioGroup>
+    </LinearLayout>
+</TabHost>
